@@ -140,18 +140,7 @@ Order Items: ['Butter Chicken X 2 X 320.0 = 640.0', 'Garlic Naan X 4 X 45.0 = 18
 | `process_order(order)` | Prints the order receipt with the final bill and items |
 | `order_printer(order_items)` | Helper that formats each order line |
 
----
 
-## 🛣️ Roadmap
-
-- [ ] `fetch_order_data(order, format)` for JSON/dict exports using `include` / `exclude` (including nested exclusion)
-- [ ] `strict=True` fields with failure demos
-- [ ] `Annotated` + `Field` usage
-- [ ] `exclude_unset=True` comparison between customers
-- [ ] Failure demos wrapped in `try/except ValueError`
-- [ ] Separate computed fields for subtotal, discount, and delivery fee
-
----
 
 ## 🛠️ Tech Stack
 
@@ -159,8 +148,4 @@ Order Items: ['Butter Chicken X 2 X 320.0 = 640.0', 'Garlic Naan X 4 X 45.0 = 18
 - Pydantic v2
 - email-validator
 
----
 
-## 👤 Author
-
-**Raghav**, learning FastAPI and Pydantic, one validator at a time.
